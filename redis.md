@@ -1,0 +1,79 @@
+- 什么是redis
+- REDIS的数据类型？
+- 使用REDIS有哪些好处？
+- REDIS相比 MEMCACHED有哪些优势？
+- MEMCACHE与REDIS的区别都有哪些？
+- REDIS是单进程单线程的？
+- 一个字符串类型的值能存储最大容量是多少？
+- REDIS的持久化机制是什么？各自的优缺点？
+- REDIS常见性能问题和解决方案：
+- REDIS过期键的删除策略？
+- REDIS的回收策略（淘汰策略）？
+- 为什么REDIS需要把所有数据放到内存中？
+- REDIS的同步机制了解么？
+- PIPELINE有什么好处，为什么要用PIPELINE？
+- 是否使用过REDIS集群，集群的原理是什么？
+- REDIS集群方案什么情况下会导致整个集群不可用
+- REDIS支持的JAVA客户端都有哪些？官方推荐用哪个？
+- JEDIS与REDISSON对比有什么优缺点？
+- REDIS如何设置密码及验证密码？
+- 说说REDIS哈希槽的概念？
+- REDIS集群的主从复制模型是怎样的？
+- REDIS集群会有写操作丢失吗？为什么？
+- REDIS集群之间是如何复制的？
+- REDIS集群最大节点个数是多少？
+- REDIS集群如何选择数据库？
+- 怎么测试REDIS的连通性
+- 怎么理解REDIS事务？
+- REDIS事务相关的命令有哪几个？
+- REDIS KEY的过期时间和永久有效分别怎么设置？
+- REDIS如何做内存优化？
+- REDIS回收进程如何工作的？
+- 都有哪些办法可以降低REDIS的内存使用情况呢？
+- REDIS的内存用完了会发生什么？
+- 一个REDIS实例最多能存放多少的KEYS？LIST、SET、SORTED SET他们最多能存放多少元素？
+- MYSQL里有2000w数据，REDIS中只存20w的数据，如何保证REDIS中的数据都是热点数据？REDIS内存数据集大小上升到一定大小的时候，就会施行数据淘汰策略。
+- REDIS最适合的场景？
+- 假如REDIS里面有1亿个KEY，其中有10w个KEY是以某个固定的已知的前缀开头的，如果将它们全部找出来？
+- 如果有大量的KEY需要设置同一时间过期，一般需要注意什么？
+- 使用过redis做异步队列，你是怎么用的？
+- 使用过redis做过分布式锁吗，他是怎么回事？
+- Redis数据类型
+- 跳表 - Zet结构
+- Redis分布式锁
+- redisson
+- Redis集群批量获取key有什么问题
+- 有哪些redis集群
+- Redis缓存击穿 雪崩
+- 分布式id 雪花算法原理
+- Redis 1000w个key 按照 xxx__前缀取1w的命令
+- Redis cluster和主从有什么区别
+- 一台redis挂了拿不到key了怎么办
+- Redis RDB
+- Rdb aof
+- redis的过期策略
+- Redis用在哪些场景
+- 数据过期的拉新操作
+- Redis主从同步过程
+- 跳表能换成红黑树吗
+- Rdb aof、aof太大怎么办
+- Redis hash扩容
+- redis为什么快
+- redis热点数据有什么问题
+- redis是怎么做的高可用
+- redis选举详细过程
+- Redis的IO模型
+- 用redis实现分布式锁有什么潜在的问题
+  - https://zhuanlan.zhihu.com/p/112651338
+- pipline
+- redis怎么实现事务 
+- redis6.0是怎么实现多线程的
+- 缓存和数据库一致性的问题
+- 单链表找到中间节点
+- redis写入通信协议是什么？ 
+- redis写入操作IO操作快是因为异步
+- redis的setnx底层怎么实现的？
+- 使用预加载到redis的形式去计算发放数量，怎么跟数据库保持一致性？
+- 用户端的活动数据怎么保证高并发访问不挂？
+- 一致性hash，虚拟节点作用，为什么一致性hash是一个环。 
+
