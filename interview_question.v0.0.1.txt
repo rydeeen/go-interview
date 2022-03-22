@@ -1508,3 +1508,8 @@
 12. 单元测试
     
     1. 如果一个包要依赖另一个包，这个时候如何写单元测试
+
+13. go 网络库的封装
+
+	https://mp.weixin.qq.com/s/hjWhh_zHfxmH1yZFfvu_zA
+
