@@ -114,24 +114,111 @@
 - Print、echo、print_r有什么区别？
 - SESSION与COOKIE的区别？
 - PHP处理数组的常用函数？（重点看函数的‘参数’和‘返回值’）
+
+	array() 创建数组
+	in_array() 判断元素是否在数组中
+	count() 返回数组中元素的数目
+	array_merge() 将多个数组合并成一个数组
+	array_diff() 比较两个或两个以上数组的差异
+	array_intersect() 获取两个或两个数组以上的交集
+	array_keys() 获取数组的key列表
+	array_values() 获取数组的值列表
+	array_unique() 删除数组中的重复值
+	array_push()将一个或多个元素插入数组的末尾（入栈）
+	array_pop() 弹出并返回 array 数组的最后一个单元（出栈）
+	array_walk() 使用用户自定义函数对数组中的每个元素做回调处理
+
 - PHP处理字符串的常用函数？（重点看函数的‘参数’和‘返回值’）
+
+	trim()
+	rtrim()
+	ltrim()
+	str_replace()
+	strtoupper()
+	strtolower()
+	sprintf()
+	substr()
+	strlen()
+	strcmp()
+	strstr()
+	strpos()
+
 - PHP处理时间的常用函数？（重点看函数的‘参数’和‘返回值’）
+
+	date()
+	getdate()
+	maketime()
+	strtotime()
+
 - PHP操作文件的常用函数？（重点看函数的‘参数’和‘返回值’）
+
+	basename()
+	dirname()
+	pathinfo()
+	fopen()
+	fstat()
+	filesize()
+	fgets()
+	filetime()
+	file_put_content()
+
 - PHP处理数据库的常用函数？（重点看函数的‘参数’和‘返回值’）
+
+	beginTransaction()
+	commit()
+	exec()
+	prepare()
+	query()
+	rollBack()
+	bindParam()
+	fetch()
+	fetchAll()
+	fetColumn()
+
 - 简述 private、 protected、 public修饰符的访问权限。
+
+	1. private	
+		
+		外部不可访问	
+		子类不可访问
+
+	2. protected
+	
+		外部不可访问
+		子类可访问：使用parent::
+
+	3. public
+		
+		外部可访问可修改
+
 - 堆和栈的区别？
 - 什么是构造函数，什么是析构函数，作用是什么？
+
 - 如何重载父类的方法，举例说明
 - 常用的魔术方法有哪些？举例说明
 - $this和self、parent这三个关键词分别代表什么？在哪些场合下使用？
+
+	this 当前实例化的对象
+	self 
+
 - 类中如何定义常量、如何类中调用常量、如何在类外调用常量。
 - 作用域操作符::如何使用？都在哪些场合下使用？
+
+	访问静态成员、方法和常量，还可以用于覆盖类中的成员和方法
+
 - __autoload()方法的工作原理是什么
 - PHP 页面重定向的方法有哪些;
 - PHP 做好防盗链的基本思想 防盗链
 - require，include区别
 
+	1. include引入文件的时候，如果碰到错误，会给出提示，
+		并继续运行下边的代码，require引入文件的时候，
+		如果碰到错误，会给出提示，并停止运行下边的代码
+
+	2. include()是有条件包含函数，而require()则是无条件包含函数。
 	
+	3. 对 include()来说，在include()执行时文件每次都要进行读取和评估；
+		而对于require()来说，文件只处理一次	
 
 - PHP写出显示客户端IP与服务器IP的代码
 
