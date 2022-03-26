@@ -260,7 +260,7 @@
 - 通过哪一个函数，可以把错误转换为异常处理？
 
 	set_error_handler(callable $error_handler [, int $error_types = E_ALL | E_STRICT ])
-	ror_handler(callable $error_handler [, int $error_types = E_ALL | E_STRICT ])
+	error_handler(callable $error_handler [, int $error_types = E_ALL | E_STRICT ])
 
 - 合并两个数组有几种方式，试比较它们的异同
 
